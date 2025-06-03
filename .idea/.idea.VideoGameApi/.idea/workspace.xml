@@ -10,9 +10,6 @@
   <component name="ChangeListManager">
     <list default="true" id="918e188a-7ad3-4509-9bb2-4455bc6aa05f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VideoGameApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VideoGameApi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/VideoGameApi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/VideoGameApi.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/VideoGameApi.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/VideoGameApi.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoGameApi/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +22,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ChristidisA"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ChristidisA/VideoGameApi.git",
+    "accountId": "c5c1948e-702d-4ac3-b709-1df4c9b23a92"
+  }
+}]]></component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
@@ -50,7 +60,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -112,6 +122,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
