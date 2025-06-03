@@ -1,0 +1,32 @@
+[
+  {
+    "date": "2025-06-01",
+    "temperatureC": 31,
+    "temperatureF": 87,
+    "summary": "Mild"
+  },
+  {
+    "date": "2025-06-02",
+    "temperatureC": -14,
+    "temperatureF": 7,
+    "summary": "Balmy"
+  },
+  {
+    "date": "2025-06-03",
+    "temperatureC": -10,
+    "temperatureF": 15,
+    "summary": "Freezing"
+  },
+  {
+    "date": "2025-06-04",
+    "temperatureC": 37,
+    "temperatureF": 98,
+    "summary": "Chilly"
+  },
+  {
+    "date": "2025-06-05",
+    "temperatureC": 5,
+    "temperatureF": 40,
+    "summary": "Freezing"
+  }
+]
