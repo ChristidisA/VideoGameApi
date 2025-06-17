@@ -10,8 +10,6 @@
   <component name="ChangeListManager">
     <list default="true" id="918e188a-7ad3-4509-9bb2-4455bc6aa05f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VideoGameApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VideoGameApi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/VideoGameApi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/VideoGameApi.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/VideoGameApi.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/VideoGameApi.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +124,7 @@
       <workItem from="1748982207741" duration="314000" />
       <workItem from="1748989184659" duration="782000" />
       <workItem from="1750190591315" duration="128000" />
-      <workItem from="1750190891178" duration="514000" />
+      <workItem from="1750190891178" duration="991000" />
     </task>
     <task id="LOCAL-00001" summary="workspace">
       <option name="closed" value="true" />
@@ -138,6 +136,9 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <option name="startingDirectory" value="C:\Users\anton\RiderProjects" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
