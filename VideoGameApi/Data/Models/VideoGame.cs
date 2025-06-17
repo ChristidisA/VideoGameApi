@@ -1,4 +1,4 @@
-namespace VideoGameApi;
+namespace VideoGameApi.Data.Models;
 
 public class VideoGame
 {

@@ -1,6 +1,7 @@
 using VideoGameApi.Data.Dtos;
+using VideoGameApi.Data.Models;
 
-namespace VideoGameApi.Core;
+namespace VideoGameApi.Core.Accessors;
 
 public interface VideoGameAccessor
 {
@@ -12,5 +13,5 @@ public interface VideoGameAccessor
     //
     // Task<VideoGame> Get(int videoGameId);
     //
-    // Task<List<VideoGame>> List(int page, int pageSize);
+    Task<List<VideoGame>> List(int page, int pageSize);
 }

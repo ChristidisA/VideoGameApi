@@ -9,7 +9,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="918e188a-7ad3-4509-9bb2-4455bc6aa05f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/VideoGameApi/Web/VideoGames/Services/ListGamesService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VideoGameApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VideoGameApi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/Core/Accessors/VideoGameAccessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/Core/Accessors/VideoGameAccessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/Core/Repositories/VideoGameRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/Core/Repositories/VideoGameRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/Data/DataBase/VideoGameDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/Data/DataBase/VideoGameDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/Data/Models/VideoGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/Data/Models/VideoGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/Migrations/20250603203925_InitialCreate.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/Migrations/20250603203925_InitialCreate.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/Migrations/VideoGameDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/Migrations/VideoGameDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/VideoGameApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/VideoGameApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/Web/Controllers/AddGameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/Web/VideoGames/Controllers/AddGameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/Web/Services/AddGameService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/Web/VideoGames/Services/AddGameService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/bin/Debug/net9.0/VideoGameApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/bin/Debug/net9.0/VideoGameApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/bin/Debug/net9.0/VideoGameApi.exe" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/bin/Debug/net9.0/VideoGameApi.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/bin/Debug/net9.0/VideoGameApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/bin/Debug/net9.0/VideoGameApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/VideoGameApi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/VideoGameApi.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/VideoGameApi.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/VideoGameApi.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/VideoGameApi.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/VideoGameApi.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/VideoGameApi.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/VideoGameApi.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/VideoGameApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/VideoGameApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/VideoGameApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/VideoGameApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/ref/VideoGameApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/ref/VideoGameApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/refint/VideoGameApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/refint/VideoGameApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameApi/obj/Debug/net9.0/rpswa.dswa.cache.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +71,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2xrsGTfjV6FKbxScvSnaiKaMSmR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -64,7 +93,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -124,7 +153,7 @@
       <workItem from="1748982207741" duration="314000" />
       <workItem from="1748989184659" duration="782000" />
       <workItem from="1750190591315" duration="128000" />
-      <workItem from="1750190891178" duration="1742000" />
+      <workItem from="1750190891178" duration="4679000" />
     </task>
     <task id="LOCAL-00001" summary="workspace">
       <option name="closed" value="true" />
@@ -134,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748992063075</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="starting Directory">
+      <option name="closed" value="true" />
+      <created>1750192662190</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750192662190</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -148,7 +185,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
+    <MESSAGE value="starting Directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="starting Directory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

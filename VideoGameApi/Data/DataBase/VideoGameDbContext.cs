@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using VideoGameApi.Data.Models;
 
-namespace VideoGameApi.Data;
+namespace VideoGameApi.Data.DataBase;
 
 public class VideoGameDbContext : DbContext
 {

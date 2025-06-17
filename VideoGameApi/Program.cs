@@ -1,8 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
-using VideoGameApi.Core;
-using VideoGameApi.Data;
-using VideoGameApi.Web.Services;
+using VideoGameApi.Core.Accessors;
+using VideoGameApi.Core.Repositories;
+using VideoGameApi.Data.DataBase;
+using VideoGameApi.Web.VideoGames.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +19,7 @@ builder.Services.AddDbContext<VideoGameDbContext>(options =>
 
 builder.Services.AddScoped<VideoGameAccessor, VideoGameRepository>();
 builder.Services.AddScoped<IAddGameService,AddGameService>();
+builder.Services.AddScoped<IListGamesService,ListGamesService>();
 
 var app = builder.Build();
 

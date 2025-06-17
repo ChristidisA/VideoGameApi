@@ -159,3 +159,4 @@ C:\Users\anton\RiderProjects\VideoGameApi\VideoGameApi\bin\Debug\net9.0\ru\Micro
 C:\Users\anton\RiderProjects\VideoGameApi\VideoGameApi\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\anton\RiderProjects\VideoGameApi\VideoGameApi\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\anton\RiderProjects\VideoGameApi\VideoGameApi\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\anton\RiderProjects\VideoGameApi\VideoGameApi\obj\Debug\net9.0\VideoGameApi.sourcelink.json

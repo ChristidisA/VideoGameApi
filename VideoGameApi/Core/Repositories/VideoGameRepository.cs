@@ -1,8 +1,10 @@
 using Microsoft.EntityFrameworkCore;
-using VideoGameApi.Data;
+using VideoGameApi.Core.Accessors;
+using VideoGameApi.Data.DataBase;
 using VideoGameApi.Data.Dtos;
+using VideoGameApi.Data.Models;
 
-namespace VideoGameApi.Core;
+namespace VideoGameApi.Core.Repositories;
 
 public class VideoGameRepository : VideoGameAccessor
 {
@@ -25,6 +27,16 @@ public class VideoGameRepository : VideoGameAccessor
         
         await _context.VideoGames.AddAsync(result);
         await _context.SaveChangesAsync();
+        return result;
+    }
+
+    public async Task<List<VideoGame>> List(int page, int pageSize)
+    {
+        var result = await _context.VideoGames
+            .Skip(pageSize* (page - 1 ))
+            .Take(pageSize)
+            .ToListAsync();
+        
         return result;
     }
 }
