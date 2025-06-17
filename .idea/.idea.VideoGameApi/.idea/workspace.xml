@@ -124,7 +124,7 @@
       <workItem from="1748982207741" duration="314000" />
       <workItem from="1748989184659" duration="782000" />
       <workItem from="1750190591315" duration="128000" />
-      <workItem from="1750190891178" duration="991000" />
+      <workItem from="1750190891178" duration="1742000" />
     </task>
     <task id="LOCAL-00001" summary="workspace">
       <option name="closed" value="true" />
@@ -138,7 +138,7 @@
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
-    <option name="startingDirectory" value="C:\Users\anton\RiderProjects" />
+    <option name="startingDirectory" value="C:\Users\anton\RiderProjects\VideoGameApi" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
