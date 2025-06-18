@@ -9,15 +9,9 @@ public interface IAddGameService
     Task<VideoGameFullDto> Add(AddVideoGameDto newGame);
 }
 
-public class AddGameService : IAddGameService
+public class AddGameService(IVideoGameAccessor accessor) : IAddGameService
 {
-    private readonly VideoGameAccessor _accessor;
-
-    public AddGameService(VideoGameAccessor accessor)
-    {
-        _accessor = accessor;
-    }
-
+    private readonly IVideoGameAccessor _accessor = accessor;
     public async Task<VideoGameFullDto> Add(AddVideoGameDto newGame)
     {
         var response = await _accessor.Add(newGame);

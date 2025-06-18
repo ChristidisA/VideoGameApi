@@ -6,15 +6,10 @@ using VideoGameApi.Data.Models;
 
 namespace VideoGameApi.Core.Repositories;
 
-public class VideoGameRepository : VideoGameAccessor
+public class VideoGameRepository(VideoGameDbContext context) : IVideoGameAccessor
 {
-    private readonly VideoGameDbContext  _context;
-
-    public VideoGameRepository(VideoGameDbContext  context)
-    {
-        _context = context;
-    }
-
+    private readonly VideoGameDbContext _context = context;   
+    
     public async Task<VideoGame> Add(AddVideoGameDto newGame)
     {
         var result = new VideoGame
@@ -28,6 +23,51 @@ public class VideoGameRepository : VideoGameAccessor
         await _context.VideoGames.AddAsync(result);
         await _context.SaveChangesAsync();
         return result;
+    }
+
+    public async Task<VideoGame> Update(int videoGameId, UpdateVideoGameDto updatedGame)
+    {
+        var response = await _context.VideoGames.FindAsync(videoGameId);
+        
+        if (response == null)
+        {
+            throw new Exception("VideoGame not found");
+        }
+
+        response.Title = updatedGame.Title ?? response.Title;
+        response.Platform = updatedGame.Platform ?? response.Platform;
+        response.Developer = updatedGame.Developer ?? response.Developer;
+        response.Publisher = updatedGame.Publisher ?? response.Publisher;
+        
+        _context.VideoGames.Update(response);
+        await _context.SaveChangesAsync();
+        return response;
+    }
+
+    public async Task<bool> Delete(int gameId)
+    {
+        var response = await _context.VideoGames.FindAsync(gameId);
+
+        if (response == null)
+        {
+            return false;
+        }
+        
+        _context.VideoGames.Remove(response);
+        await _context.SaveChangesAsync();
+        return true;
+    }
+
+    public async Task<VideoGame> Get(int gameId)
+    {
+        var  response = await _context.VideoGames.FindAsync(gameId);
+
+        if (response == null)
+        {
+           throw new Exception("VideoGame not found"); 
+        }
+        
+        return response;
     }
 
     public async Task<List<VideoGame>> List(int page, int pageSize)

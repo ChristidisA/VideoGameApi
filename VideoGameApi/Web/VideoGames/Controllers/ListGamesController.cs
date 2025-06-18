@@ -7,15 +7,10 @@ namespace VideoGameApi.Web.VideoGames.Controllers;
 [Tags("VideoGames")]
 [ApiController]
 [Route("api/[controller]")]
-public class ListGamesControllers : ControllerBase
+public class ListGamesController(IListGamesService service) : ControllerBase
 {
-    private readonly IListGamesService _service;
-
-    public ListGamesControllers(IListGamesService service)
-    {
-        _service = service;
-    }
-
+    private readonly IListGamesService _service = service;
+    
     [HttpGet]
     public async Task<List<VideoGameFullDto>> List([FromQuery] int page = 1, int pageSize = 10)
     {

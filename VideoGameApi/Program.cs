@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
+using VideoGameApi;
 using VideoGameApi.Core.Accessors;
 using VideoGameApi.Core.Repositories;
 using VideoGameApi.Data.DataBase;
@@ -16,10 +17,7 @@ builder.Services.AddOpenApi();
 builder.Services.AddDbContext<VideoGameDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString(name: "DefaultConnection")));
 
-
-builder.Services.AddScoped<VideoGameAccessor, VideoGameRepository>();
-builder.Services.AddScoped<IAddGameService,AddGameService>();
-builder.Services.AddScoped<IListGamesService,ListGamesService>();
+ClassScopes.ConfigureServices(builder);
 
 var app = builder.Build();
 

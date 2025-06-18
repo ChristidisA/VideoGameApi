@@ -7,15 +7,10 @@ namespace VideoGameApi.Web.VideoGames.Controllers;
 [Tags("VideoGames")]
 [ApiController]
 [Route("api/[controller]")]
-public class AddGameController : ControllerBase
+public class AddGameController(IAddGameService service) : ControllerBase
 {
-    private readonly IAddGameService _service;
-
-    public AddGameController(IAddGameService service)
-    {
-        _service = service;
-    }
-
+    private readonly IAddGameService _service = service;
+    
     [HttpPost]
     public async Task<VideoGameFullDto> Add([FromBody] AddVideoGameDto newGame)
     {

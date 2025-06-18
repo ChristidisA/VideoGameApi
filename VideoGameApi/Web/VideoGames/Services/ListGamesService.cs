@@ -9,15 +9,9 @@ public interface IListGamesService
     Task<List<VideoGameFullDto>> List(int page, int pageSize);
 }
 
-public class ListGamesService  : IListGamesService
+public class ListGamesService(IVideoGameAccessor accessor) : IListGamesService
 {
-    private readonly VideoGameAccessor _accessor;
-
-    public ListGamesService(VideoGameAccessor accessor)
-    {
-        _accessor = accessor;
-    }
-
+    private IVideoGameAccessor _accessor = accessor;
     public async Task<List<VideoGameFullDto>> List(int page, int pageSize)
     {
         var response = await _accessor.List(page, pageSize);
