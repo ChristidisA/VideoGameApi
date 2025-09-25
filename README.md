@@ -11,4 +11,3 @@ Basic Crud Operations : Create / Update / Get / List / Delete
 Database: PostgreSql + Redis Cache
 
 API: Scalar
-# HotelApi
